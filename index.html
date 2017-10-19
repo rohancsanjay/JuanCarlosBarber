@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no" name="viewport" />
+    <meta content="Juan Carlos, Barber, Bay Area" name="description" />
+    <meta content="haircut, barber, san jose, cutz, juan carlos" name="keywords" />
+    <meta content="PPType" name="author" />
+    <meta content="#ffffff" name="theme-color" />
+    <title>Juan Carlos</title>
+    <link href="./dist/semantic-ui/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/default.css" rel="stylesheet" type="text/css" />
+    <link href="./css/pandoc-code-highlight.css" rel="stylesheet" type="text/css" />
+    <script src="./dist/jquery/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/28def2572d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Muli" rel="stylesheet"> </head>
+
+<body>
+    <div class="ui inverted large top fixed hidden menu">
+        <div class="ui container"> <a class="item" href="index.html#">Home</a>
+          <a class="item" href="index.html#">About</a><a class="item" href="#portfolio">Portfolio</a>
+          <a href="#details" class="item">Location</a>
+            <!-- For Future Development -->
+            <!-- <div class="right menu"> <div class="item"> <a class="ui button">Log in</a> </div> <div class="item"> <a class="ui primary button">Sign Up</a> </div> </div> -->
+        </div>
+    </div>
+    <!--Sidebar Menu-->
+    <div class="ui vertical inverted sidebar menu"> <a href="index.html#" class="active item">Home</a><a class="item">About</a><a href="#portfolio"class="item">Portfolio</a></div>
+    <!--Page Contents-->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui container">
+                <div class="ui large secondary inverted pointing menu">
+                      <a class="toc item"><i class="sidebar icon"></i></a>
+                      <a class="active item">Home</a>
+                      <a href="#" class="item">About</a>
+                      <a href="#portfolio" class="item">Portfolio</a>
+                      <a href="#details" class="item">Location</a>
+                    <div class="right item">
+                      <div class="item">
+                            <a href="https://www.instagram.com/jccutz10_sj/">
+                              <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                      </div>
+                      <div class="item">
+                            <a href="https://www.yelp.com/biz/jc-cutz-san-jose-3?uid=EK-2nHr3cNUvnNuvqDcvtw&utm_source=ishare">
+                              <i class="fa fa-yelp fa-2x" aria-hidden="true"></i>
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui text container">
+                <h1 class="ui inverted header"> Juan Carlos </h1>
+                <h2> Barber - Bay Area - CA </h2>
+                <br>
+                <div class="ui huge inverted button book"> <a href="https://snapappointments.com/premiumcutzbarbers"> Book Me <i class="angle double right icon"></i> </a> </div>
+            </div>
+        </div>
+        <div class="ui vertical stripe segment">
+            <div class="ui middle aligned stackable grid container">
+                <div class="row">
+                    <div class="eight wide column">
+                        <h3 class="ui header"> About Me </h3>
+                        <p> Hey, I'm <b>Juan</b>. I'm a barber from the Bay Area. I like to consult my clients and ensure their cut is going to have them looking their sharpest. Come on by our barbershop and ask for me, let's get you looking <b>fresh</b>! </p> <a href="https://snapappointments.com/premiumcutzbarbers" class="ui huge button jc">Appointments</a>
+                        <h3 class="ui header"> My Work </h3>
+                        <p> I can style and cut your hair in various kinds of ways. Come see all my work on Instagram! Or see some examples below! If you have any questions feel free to contact me! </p> <a href="https://www.instagram.com/jccutz10_sj/" class="ui huge button jc">Portfolio</a> </div>
+                    <div class="six wide right floated column"> <img class="ui large bordered rounded image" src="./img/jc.jpg" /> </div>
+                </div>
+                <div class="row">
+                    <div class="center aligned column"> </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio" class="ui vertical stripe segment instagram-feed">
+          <h3 class="ui horizontal header divider centered showcase" style="padding-bottom: 0px">Showcase</h3>
+          <div class="ui fluid container">
+            <div class="center aligned row">
+              <div class="column">
+                <div class="ui link cards">
+                  <div class="card">
+                    <div class="image">
+                      <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BW-mv6xn_iA/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-25T17:38:25+00:00">Jul 25, 2017 at 10:38am PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="image">
+                      <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BZRpbMKHQ76/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-09-20T20:10:10+00:00">Sep 20, 2017 at 1:10pm PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="image">
+                      <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BVh5ARAn-1S/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-19T17:28:34+00:00">Jun 19, 2017 at 10:28am PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="image">
+                    <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BZEOJSZnlZ5/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-09-15T15:01:40+00:00">Sep 15, 2017 at 8:01am PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="image">
+                      <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWIvMbQnmMV/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-04T19:33:14+00:00">Jul 4, 2017 at 12:33pm PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="image">
+                      <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BZOmmlqH4kr/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by JC Cutz Bay Area (@jccutz10_sj)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-09-19T15:47:47+00:00">Sep 19, 2017 at 8:47am PDT</time></p></div></blockquote> <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="details" class="ui vertical stripe segment">
+          <div class="ui text container">
+              <h4 class="ui horizontal header divider"> <p> Information </p> </h4>
+              <h3 class="ui header"> Location </h3>
+              <div id="map"></div>
+              <!-- Google Map Script -->
+              <script>
+                  function initMap() {
+                      var uluru = {
+                          lat: 37.3242579,
+                          lng: -121.8840754
+                      };
+                      var map = new google.maps.Map(document.getElementById('map'), {
+                          zoom: 10,
+                          center: uluru,
+                          styles: [{
+                              "featureType": "administrative",
+                              "elementType": "labels.text.fill",
+                              "stylers": [{
+                                  "color": "#444444"
+                              }]
+                          }, {
+                              "featureType": "landscape",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "color": "#f2f2f2"
+                              }]
+                          }, {
+                              "featureType": "poi",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "visibility": "off"
+                              }]
+                          }, {
+                              "featureType": "road",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "saturation": -100
+                              }, {
+                                  "lightness": 45
+                              }]
+                          }, {
+                              "featureType": "road.highway",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "visibility": "simplified"
+                              }]
+                          }, {
+                              "featureType": "road.arterial",
+                              "elementType": "labels.icon",
+                              "stylers": [{
+                                  "visibility": "off"
+                              }]
+                          }, {
+                              "featureType": "transit",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "visibility": "off"
+                              }]
+                          }, {
+                              "featureType": "water",
+                              "elementType": "all",
+                              "stylers": [{
+                                  "color": "#000000"
+                              }, {
+                                  "visibility": "on"
+                              }]
+                          }]
+                      });
+                      var marker = new google.maps.Marker({
+                          position: uluru,
+                          map: map
+                      });
+                  }
+              </script>
+              <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFzWamKQu_6rKLv2e4N2OcwAYsvNSrDfg&callback=initMap">
+              </script>
+              <p></p>
+              <h4>Our shop <i> Premium Cutz </i> is located at <a href="https://www.google.com/maps/dir//Premium+Cutz,+785+S+1st+St,+San+Jose,+CA+95110/@37.3242579,-121.8840754,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e334a9f176e23:0x8f55b4558cfd93d9!2m2!1d-121.8818867!2d37.3242537">
+                 785 S 1st St, San Jose, CA 95110 <i class="right arrow icon"></i><a> </h4> <a class="ui large button jc" href="https://www.yelp.com/biz/premium-cutz-san-jose-4">Visit Barbershop</a>
+              <h3 class="ui header"> Haircuts </h3>
+              <p> I'm a barber who takes pride in his clients and their cuts. You can tell me how you want your cut, bring me a picture or are you not sure which kind of cut to get? Consult me!
+                  <br><b>I specialize in these:</b> </p>
+              <ul>
+                  <li><i class="right triangle icon"></i>Tapers</li>
+                  <li><i class="right triangle icon"></i>Fades</li>
+                  <li><i class="right triangle icon"></i>Blending</li>
+                  <li><i class="right triangle icon"></i>Section Shading</li>
+                  <li><i class="right triangle icon"></i>Line Ups</li>
+              </ul> <a class="ui large button jc" href="https://www.menshairstylestoday.com/new-hairstyles-for-men/">Some Inspiration?</a> </div>
+      </div>
+
+        <div id="test" class="ui vertical stripe quote segment">
+            <div class="ui equal width stackable internally celled grid">
+                <div class="center aligned row">
+                    <div class="column">
+                        <h3> "I came in unsure of how to get my cut my hair, Juan took the time to consult me and gave me the best haircut I've ever had!" </h3>
+                        <p> Rohan Sanjay </p>
+                    </div>
+                    <div class="column">
+                        <h3> "Hands down best modern barber in the Bay" </h3>
+                        <p> Adam Sciupac </p>
+                        <!-- <p> <img class="ui avatar image" src="../../static/images/templates/semantic-ui/avatar/nan.jpg" /><b>Nan</b>Chief Fun Officer Acme Toys </p> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="three wide column">
+                        <h4 class="ui inverted header"> Helpful Links </h4>
+                        <div class="ui inverted link list"> <a class="item" href="https://www.instagram.com/jccutz10_sj/"> Instagram</a><a class="item" href="https://www.yelp.com/biz/jc-cutz-san-jose-3"> Yelp</a> <a class="item" href="index.html#"> For Appointments</a> </div>
+                    </div>
+                    <div class="three wide column">
+                        <h4 class="ui inverted header">For Contact</h4>
+                        <div class="ui inverted link list">
+                          <a class="item"> (408)-509-9782</a>
+                          <a href="mailto:juanqui_leal10@yahoo.com?Subject=Hi%20there!" target="_top">Email Me</a>
+                    </div>
+                  </div>
+                    <div class="seven wide column">
+                        <h4 class="ui inverted header"> Address </h4>
+                        <p> 785 S 1st St, San Jose, CA 95110
+                            <br> Copyright © 2017 Juan Carlos. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/semantic-ui/semantic.min.js"></script>
+    <script src="./js/main.js"></script>
+    <style type="text/css">
+        #map {
+            height: 200px;
+            width: 100%;
+            border: 2px solid black;
+        }
+        .card  {
+          margin:0 auto !important;
+          border: none !important;
+          box-shadow: none !important;
+          background-color: #1B1C1D !important;
+        }
+        .showcase {
+          font-family: 'Kalam', cursive !important;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+          color: #F9F8F8;
+          margin-bottom: 3% !important;
+          margin-top: 0% !important;
+        }
+        .ui.vertical.stripe p {
+          color: black;
+        }
+        .instagram-feed {
+          background-color: #1B1C1D !important;
+        }
+
+        .ui.secondary.inverted.pointing.menu {
+            border-style: none;
+        }
+
+        .ui.button.jc:hover {
+            color: #F9F8F8;
+            background-color: #1B1C1D;
+        }
+
+        .hidden.menu {
+            display: none;
+        }
+        /*Custom CSS Start*/
+
+        .ui.huge.inverted.button.book a {
+            color: white;
+        }
+
+        .ui.huge.inverted.button.book a:hover {
+            color: black;
+        }
+
+        .ui.vertical.stripe.segment {
+            background-color: #F9F8F8;
+        }
+        /*Custom CSS End*/
+
+        .masthead.segment {
+            min-height: 420px;
+            padding: 1em 0em;
+        }
+
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+
+        .masthead h1.ui.header {
+            font-family: 'Satisfy', cursive;
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        .masthead h2 {
+            font-family: 'Kalam', cursive;
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+
+        .ui.vertical.stripe p {
+            font-family: 'Muli', sans-serif;
+            font-size: 1.33em;
+        }
+
+        .ui.vertical.stripe ul {
+            font-size: 1.30em;
+            list-style: none;
+        }
+
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</body>
+
+</html>
